@@ -1,0 +1,12 @@
+CREATE TABLE syed_sample (
+    flight_id STRING,
+    carrier STRING,
+    origin STRING,
+    destination STRING,
+    dep_delay INT,
+    arr_delay INT,
+    delayed STRING
+)
+ROW FORMAT DELIMITED
+FIELDS TERMINATED BY ','
+STORED AS TEXTFILE;
